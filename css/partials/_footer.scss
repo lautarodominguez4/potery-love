@@ -1,0 +1,22 @@
+.footer{
+    background-color: $colorPrincipal;
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-self: flex-end;
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding: 1rem;
+        list-style-type: none;
+        .list-text{
+            text-align: left;
+            color:black;
+        }
+    }
+}
+#footer-5{
+position: fixed;
+bottom: 0%;
+}

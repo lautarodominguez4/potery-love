@@ -64,14 +64,16 @@ font-size: 1.2rem;
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-.footer-list{
-    padding: 1rem;
-    list-style-type: none;
-}
-.list-text{
-    text-align: left;
-    color:black;
+
+    .footer-list{
+        padding: 1rem;
+        list-style-type: none;
+
+        .list-text{
+            text-align: left;
+            color:black;
+        }
+    }
 }
 /*------------------------------------------------------------------------------------------------------*/
 
@@ -93,7 +95,6 @@ font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-
 }
 
 .contactame{
@@ -126,33 +127,26 @@ font-size: 1.2rem;
     "producto-1 producto-2" 
     "producto-3 producto-4" ;
     
-}
-#grid-repair{
-    row-gap: 0;
-    column-gap: 2rem;
-}
-.Producto-1{
+    #grid-repair{
+        row-gap: 0;
+        column-gap: 2rem;
+    }
+    .Producto-1{
+        width: 100%;
+    }
     
-    width: 100%;
+    .Producto-2{
+        width: 100%;
+    }
     
+    .Producto-3{
+        width: 100%;
+    }
+    .Producto-4{ 
+        width: 100%;
+    }
 }
 
-.Producto-2{
-    
-    width: 100%;
-    
-}
-
-.Producto-3{
-   
-    width: 100%;
-}
-.Producto-4{
-    
-    width: 100%;
-    
-    
-}
 
 .productos{
     margin-top: 1.25rem;

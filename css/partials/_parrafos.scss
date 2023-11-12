@@ -1,0 +1,27 @@
+.parrafos{
+    display: flex;
+    flex-direction: column;
+    background-color: $colorSecundario ;
+    margin-top: 1rem;
+    .parrafo-2 {
+        font-size: 1.25rem;
+        text-align: center;
+        margin-top: 1.875rem;
+        margin-left: 0.625rem;
+    }
+    .parrafo-3 {
+        font-size: 1.25rem;
+        text-align: center;
+        margin-left: 0.625rem;
+    }
+    
+}
+
+.parrafo-1 {
+    background-color: $colorSecundario;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    }

@@ -1,0 +1,47 @@
+.header{
+    position: sticky;
+    top:0;
+    .container-fluid{
+
+        background-color: $colorPrincipal;
+        width: 100%;
+        display: flex;
+
+        .navbar-brand{
+            width: 100%;
+            background-color: $colorPrincipal;
+            color:#200606
+        }
+    }
+}
+.container-fluid{
+
+    background-color: $colorPrincipal;
+    width: 100%;
+    display: flex;
+
+    .navbar-brand{
+        width: 100%;
+        background-color: $colorPrincipal;
+        color:#200606
+    }
+}
+
+.collapse{
+    width: 100%;
+}
+
+    .nav-link{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: #3c0000;
+        font-size: 1rem;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+
+#header-4{
+    padding: 0;
+    }
