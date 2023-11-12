@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Contacto - Pottery love</title>
+    <title> Contacto - Pottery's love venta de ceramica</title>
     <link rel="shortcut icon" href="../images/WhatsApp Image.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/stilos.css">
 </head>
 
 <body Class="fondo">
@@ -35,34 +35,30 @@
             Contactame
         </h1>
         
-        <ul class="contac-us">
-            <li class="contactame">
-                <a style="font-weight: bold;">Telefono:</a> 11 2852-0894
-            </li>
-            <li class="contactame">
-                <a style="font-weight: bold;">Email:</a>potterylove@gmail.com
-            </li>
-            <li class="contactame">
-                <a style="font-weight: bold;">Horarios:</a> lunes a viernes 11:00hs a 19:00hs. sabados 9:00hs a 12:00hs
-            </li>
-            <li class="contactame">
-                <a style="font-weight: bold;">Instagram:</a>poterryslove
-            </li>
-        </ul>
-       
-       
+        <form action="procesar_formulario.php" method="post">
+            <div class="formulario">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="formulario">
+              <label for="email">Correo electrónico:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          
+            <input class="boton" type="submit" value="Enviar">
+        </form>
 
     </main>
 
-    <footer class="footer">
-
+    <footer class="footer" id="footer-5">
+    
         <ul class="footer-list">
             <li class="list-text">Telefono: 11 2852-0894</li>
             <li class="list-text">Email: lautarodsan03@gmail.com</li>
             <li class="list-text">Horarios: Lunes a Viernes 11:00hs a 19:00hs. Sabados 9:00hs a 12:00hs</li>
-            <li class="list-text">Instagram: poterryslove</li>
+            <li class="list-text">Instagram: @poterryslove</li>
         </ul>
-        
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
